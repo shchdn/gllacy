@@ -49,7 +49,7 @@ gulp.task('styles', () => {
       //Указать stylus() , sass() или less()
       .pipe(sass())
       //Объединение файлов в один
-      .pipe(concat('style.css'))
+      //.pipe(concat('style.css'))
       //Добавить префиксы
       .pipe(autoprefixer({
          overrideBrowserslist: ['last 2 versions'],

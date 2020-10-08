@@ -1,0 +1,31 @@
+// Normalize css
+@import 'normalize';
+
+// Шрифты
+@import 'fonts';
+
+// Цвета
+@import 'colors';
+
+// Переменные
+@import 'variables';
+
+// Миксины
+@import 'mixins';
+
+// Кнопки
+@import 'buttons';
+
+// Базовые настройки
+@import 'grid';
+@import 'common';
+
+// Блоки
+@import 'blocks/main-header';
+@import 'blocks/carousel';
+@import 'blocks/sales';
+@import 'blocks/goods';
+@import 'blocks/advantages';
+@import 'blocks/features';
+@import 'blocks/map';
+@import 'blocks/main-footer';

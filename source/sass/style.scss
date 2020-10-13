@@ -1,31 +1,24 @@
-// Normalize css
-@import 'normalize';
+// Global
+@import 'global/normalize';
+@import 'global/fonts';
+@import 'global/colors';
+@import 'global/variables';
+@import 'global/mixins';
+@import 'global/buttons';
+@import 'global/grid';
+@import 'global/common';
 
-// Шрифты
-@import 'fonts';
+// Blocks
+    // Common
+    @import 'blocks/common/main-header';
+    @import 'blocks/common/main-footer';
+    // Index
+    @import 'blocks/index/carousel';
+    @import 'blocks/index/sales';
+    @import 'blocks/index/goods';
+    @import 'blocks/index/advantages';
+    @import 'blocks/index/features';
+    @import 'blocks/index/map';
+//
 
-// Цвета
-@import 'colors';
-
-// Переменные
-@import 'variables';
-
-// Миксины
-@import 'mixins';
-
-// Кнопки
-@import 'buttons';
-
-// Базовые настройки
-@import 'grid';
-@import 'common';
-
-// Блоки
-@import 'blocks/main-header';
-@import 'blocks/carousel';
-@import 'blocks/sales';
-@import 'blocks/goods';
-@import 'blocks/advantages';
-@import 'blocks/features';
-@import 'blocks/map';
-@import 'blocks/main-footer';
+// TODO: 
